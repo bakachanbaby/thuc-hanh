@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+.button_1{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+/*Header*/
+header{
+    background-color: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+header #logo{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    font-weight: bold;
+}
+/*Showcase*/
+#showcase{
+    min-height: 400px;
+    background: url(https://www.floggingsails.com/images/showcase.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: white;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+/*NewsLetter*/
+#newsletter{
+    padding: 15px;
+    background-color: #35424a;
+    color: white;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
